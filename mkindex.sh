@@ -61,4 +61,4 @@ done < <(find "$temp_dir" -print0)
 echo "Index created at: $index_dir"
 
 # Clean up the temporary directory
-rm -r "$temp_dir"
+rm -rf "$temp_dir"
