@@ -11,7 +11,7 @@ compressed_file="$1"
 # Create a temporary directory for extracting the contents of the compressed file
 temp_dir=$(mktemp -d)
 
-echo "Uncompressing file..."
+echo "Decompressing file..."
 
 # Check the type of compressed file and extract its contents to the temporary directory
 if [[ "$compressed_file" == *.zip ]]; then
